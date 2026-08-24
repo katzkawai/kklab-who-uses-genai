@@ -1,6 +1,8 @@
 # 誰が、何のために生成AIを使っているか
 
-日本と主要国について、生成AIを**誰が**、**何のために**使っているかを、公式統計と一次調査だけで見える化した GitHub Pages です。このページは [Grok](https://grok.com) で作成しました。
+日本と主要国について、生成AIを**誰が**、**何のために**使っているかを、公式統計と一次調査だけで見える化した GitHub Pages です。
+
+**このページは Grok で作成しました。**
 
 **公開ページ:** https://katzkawai.org/kklab-who-uses-genai/  
 （GitHub Pages: https://katzkawai.github.io/kklab-who-uses-genai/ ）
@@ -37,3 +39,7 @@ http://localhost:8080 を開く。
 ## 注意
 
 総務省調査はインターネットパネルで、Pew や Eurostat の無作為抽出より高く出ます。Microsoft はテレメトリのモデル推計です。企業の業務利用率（日本 86%）は個人の数字ではありません。
+
+## 作成
+
+このページは [Grok](https://grok.com)（xAI）で作成しました。
