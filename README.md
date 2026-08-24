@@ -2,7 +2,8 @@
 
 日本と主要国について、生成AIを**誰が**、**何のために**使っているかを、公式統計と一次調査だけで見える化した GitHub Pages です。
 
-**公開ページ:** https://katzkawai.github.io/who-uses-genai/
+**公開ページ:** https://katzkawai.org/who-uses-genai/  
+（GitHub Pages: https://katzkawai.github.io/who-uses-genai/ ）
 
 ## 何が載っているか
 
