@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>誰が、何のために生成AIを使っているか — Who uses generative AI</title>
+  <meta name="description" content="日本と主要国で、生成AIは誰が・何のために使っているかを、総務省・Eurostat・Pew・Microsoft・OpenAIの一次データで可視化。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文へ / Skip to content</a>
+  <header class="site-head">
+    <a class="brand" href="#top">
+      <span class="brand-mark">登 第 壱 号</span>
+      <span class="brand-title ja">生成AI利用センサス</span>
+      <span class="brand-title en">Generative AI usage census</span>
+    </a>
+    <nav class="nav" aria-label="sections">
+      <a href="#measure" class="ja">測り方</a><a href="#measure" class="en">How we measure</a>
+      <a href="#who" class="ja">誰が</a><a href="#who" class="en">Who</a>
+      <a href="#what" class="ja">何に</a><a href="#what" class="en">What for</a>
+      <a href="#world" class="ja">世界</a><a href="#world" class="en">World</a>
+      <a href="#sources" class="ja">出典</a><a href="#sources" class="en">Sources</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="ja" aria-pressed="true">日本語</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <header class="hero" id="top">
+      <div>
+        <p class="kicker ja">日本を含む主要国 · 2025–2026 公式統計</p>
+        <p class="kicker en">Japan and major countries · official 2025–2026 statistics</p>
+        <h1 class="ja">生成AIは、<br>まず若い人の道具だ。</h1>
+        <h1 class="en">Generative AI is,<br>first of all, a young person’s tool.</h1>
+        <p class="lede ja">年齢が最もよく効く。学歴が次に効く。性別の差は小さい。用途は仕事より私生活で、中身は「調べる・書く・やり方を聞く」が大半。日本は「使ったことがある」人は急増したが、毎月使っている人の割合ではまだ世界の後半にいる。</p>
+        <p class="lede en">Age is the strongest predictor, then education. The gender gap is now small. Use is more personal than professional, and most of it is looking things up, writing, and asking how to do something. Japan’s ever-used rate has jumped; its monthly usage rate is still in the back half of the world.</p>
+      </div>
+      <aside class="hero-aside">
+        <p class="ja"><strong>91.7%</strong>日本 15–19歳の生成AI利用経験（総務省、2026年1–2月）</p>
+        <p class="en"><strong>91.7%</strong>of 15–19 year-olds in Japan have used generative AI (MIC, Jan–Feb 2026)</p>
+        <p class="ja" style="margin-top:12px"><strong>22.5%</strong>日本の15–64歳が四半期に生成AIを使った推計（Microsoft、2026 Q1、147か国中48位）</p>
+        <p class="en" style="margin-top:12px"><strong>22.5%</strong>of Japan’s working-age population used genAI in the quarter (Microsoft, 2026 Q1, 48th of 147)</p>
+      </aside>
+    </header>
+
+    <section id="measure">
+      <div class="sec-head">
+        <h2 class="ja">数字は混ぜない</h2>
+        <h2 class="en">Do not mix the rulers</h2>
+        <p class="ja">「利用率」と一口に言っても、聞いていることが違う。このページでは同じ定義の系列だけを同じ図に載せている。</p>
+        <p class="en">“Adoption” is not one number. Every chart on this page uses a single, labelled definition.</p>
+      </div>
+      <div class="method">
+        <article class="card">
+          <span class="metric-tag">A · EVER USED</span>
+          <h3 class="ja">使ったことがある</h3>
+          <h3 class="en">Ever used</h3>
+          <p class="ja">総務省（日・米・独・中の同一調査）とPew（米国の確率標本）。生涯経験。パネル調査は高めに出やすい。</p>
+          <p class="en">MIC (same questionnaire in JP/US/DE/CN) and Pew (U.S. probability sample). Lifetime experience. Panels tend to read high.</p>
+        </article>
+        <article class="card">
+          <span class="metric-tag">B · LAST 3 MONTHS</span>
+          <h3 class="ja">直近3か月に使った</h3>
+          <h3 class="en">Used in the last 3 months</h3>
+          <p class="ja">Eurostat。欧州33か国、16–74歳、約33万人。公式統計として年齢・学歴・用途が揃っている。</p>
+          <p class="en">Eurostat. 33 European countries, ages 16–74, ~330,000 people. The cleanest official split by age, education and purpose.</p>
+        </article>
+        <article class="card">
+          <span class="metric-tag">C · MONTHLY / QUARTER</span>
+          <h3 class="ja">その期間に使った（推計）</h3>
+          <h3 class="en">Used in the period (modelled)</h3>
+          <p class="ja">Microsoft AI Diffusion。15–64歳、147経済。テレメトリ補正。国同士を同じ物差しで並べられる唯一の系列。</p>
+          <p class="en">Microsoft AI Diffusion. Ages 15–64, 147 economies. Telemetry, adjusted. The only series that ranks countries on one ruler.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="who">
+      <div class="sec-head">
+        <h2 class="ja">誰が使っているか</h2>
+        <h2 class="en">Who is using it</h2>
+        <p class="ja">総務省の同一調査で日・米・独・中を並べる。15–19歳はどこでも高い。差が残るのは30代以降、とくに日本。</p>
+        <p class="en">MIC asked the same “ever used” question in Japan, the U.S., Germany and China. Teens are high everywhere. The gap that remains is after 30, especially in Japan.</p>
+      </div>
+      <div class="toolbar" id="age-legend"></div>
+      <div class="stairs" id="age-stairs" aria-label="Age comparison"></div>
+      <p class="source ja">出典: 総務省 令和8年版情報通信白書（2025年度個人向け調査、2026年1–2月、インターネット調査）。日本 n=1,236 / 米独中 各 n=624。15–69歳。「使っている（過去使ったことがある）」。20歳以上の日本は52.2%。</p>
+      <p class="source en">Source: Japan MIC White Paper 2026 (survey Jan–Feb 2026). Japan n=1,236; US/DE/CN n=624 each. Ages 15–69. Ever used. Japan aged 20+ is 52.2%.</p>
+
+      <div class="grid-2" style="margin-top:28px">
+        <article class="card">
+          <h3 class="ja">欧州でも年齢が支配的</h3>
+          <h3 class="en">Age dominates in Europe too</h3>
+          <p class="ja" style="margin-bottom:12px">Eurostat 2025、EU27、直近3か月。16–24歳は64%、65–74歳は7%。</p>
+          <p class="en" style="margin-bottom:12px">Eurostat 2025, EU-27, last 3 months. 64% of 16–24s, 7% of 65–74s.</p>
+          <div class="bars-v" id="eu-age"></div>
+          <p class="source">Eurostat isoc_ai_iaiu · PC_IND</p>
+        </article>
+        <article class="card">
+          <h3 class="ja">学歴の差は年齢より後から開く</h3>
+          <h3 class="en">Education opens a gap later in life</h3>
+          <p class="ja" style="margin-bottom:12px">EUの25–64歳。高等教育 51.6% 対 低学歴 13.3%。若年では学歴差は小さい。</p>
+          <p class="en" style="margin-bottom:12px">EU ages 25–64: 51.6% with high education vs 13.3% with low. Among the young, education barely matters.</p>
+          <div class="bars-v" id="eu-edu"></div>
+          <p class="source ja">性別は小さい: 男性 34.9% / 女性 30.5%（EU 16–74歳）。米国Pew 2026ではチャットボット利用 男性50%・女性47%でほぼ解消。</p>
+          <p class="source en">Gender is small: men 34.9% / women 30.5% (EU 16–74). Pew 2026 U.S. chatbot use: men 50%, women 47%.</p>
+        </article>
+      </div>
+
+      <div class="grid-2" style="margin-top:16px">
+        <article class="card">
+          <h3 class="ja">米国（確率標本）でも同じ形</h3>
+          <h3 class="en">The same shape in a U.S. probability sample</h3>
+          <p class="ja" style="margin-bottom:12px">Pew 2026年2月。成人の49%がチャットボットを使用。アジア系70%、18–29歳66%、65歳以上23%。</p>
+          <p class="en" style="margin-bottom:12px">Pew, Feb 2026. 49% of U.S. adults use chatbots. Asian adults 70%; 18–29 66%; 65+ 23%.</p>
+          <div class="bars-v" id="pew-who"></div>
+        </article>
+        <article class="card">
+          <h3 class="ja">米国の学歴（ChatGPT、2025）</h3>
+          <h3 class="en">U.S. education (ChatGPT, 2025)</h3>
+          <p class="ja" style="margin-bottom:12px">学士以上は約半分。高校以下は18%。仕事利用も大学院卒の就業者で45%。</p>
+          <p class="en" style="margin-bottom:12px">About half of bachelor’s/postgraduates have used ChatGPT, vs 18% with high school or less.</p>
+          <div class="bars-v" id="pew-edu"></div>
+          <p class="source">Pew Research Center, June 2025 and June 2026 reports</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="what">
+      <div class="sec-head">
+        <h2 class="ja">何のために使っているか</h2>
+        <h2 class="en">What they use it for</h2>
+        <p class="ja">日本の若年は学習・相談・情報理解。欧州の若年は教育、働き盛りは仕事。世界のChatGPT実会話では、仕事は3割で私生活が7割。</p>
+        <p class="en">Japanese teens: learning, advice, making sense of information. European teens: school. Prime-age adults: work. In ChatGPT’s actual chats, about 30% is work and 70% is not.</p>
+      </div>
+      <p class="note ja">下表は総務省の「定期的に利用している」割合で、母数は全回答者（非利用者を含む）。色が濃いほど高い。翻訳・文書作成の年齢内訳は白書グラフの読み取り誤差を避けるため載せていない。全体では情報の理解が最も高く、文書作成・翻訳が続く。</p>
+      <p class="note en">Cells are the share of all respondents in Japan who say they use AI regularly for that purpose (non-users included). Darker is higher. Translation and writing-by-age are omitted to avoid reading error from the printed chart; overall, understanding information ranks first, then writing and translation.</p>
+      <div class="heat" id="jp-heat"></div>
+      <p class="source ja">出典: 総務省 令和8年版情報通信白書 図表Ⅰ-1-1-11。数値は原典の表記。</p>
+      <p class="source en">Source: MIC White Paper 2026, chart I-1-1-11. Values as published.</p>
+
+      <div class="grid-2" style="margin-top:28px">
+        <article class="card">
+          <h3 class="ja">欧州の利用者は、何に使っているか</h3>
+          <h3 class="en">Among European users, what for</h3>
+          <p class="ja" style="margin-bottom:12px">母数は生成AI利用者。16–24歳の64%が学校教育、25–64歳の過半数が仕事。私生活はどの年齢でも最多。</p>
+          <p class="en" style="margin-bottom:12px">Denominator is genAI users. 64% of 16–24s use it for formal education; over half of 25–64s for work. Private use is the most common at every age.</p>
+          <div id="eu-purpose"></div>
+        </article>
+        <article class="card">
+          <h3 class="ja">ChatGPTの実会話（世界）</h3>
+          <h3 class="en">What ChatGPT chats actually are</h3>
+          <p class="ja" style="margin-bottom:12px">OpenAI × NBER、2025年7月。消費者プラン1.5百万会話。自己申告ではない。</p>
+          <p class="en" style="margin-bottom:12px">OpenAI × NBER, July 2025. 1.5 million consumer chats. Not a survey.</p>
+          <div class="bars-v" id="openai-topics"></div>
+          <p class="source ja">仕事関連 約30% / 非仕事 約70%。文章・情報探索・実務案内で約80%。コードは4.2%。成人メッセージの約半分は26歳未満。</p>
+          <p class="source en">Work ~30% / non-work ~70%. Writing + information + practical guidance ≈ 80%. Coding 4.2%. About half of adult messages are from people under 26.</p>
+        </article>
+      </div>
+
+      <div class="grid-2" style="margin-top:16px">
+        <article class="card">
+          <h3 class="ja">米国成人の用途（Pew 2026）</h3>
+          <h3 class="en">U.S. adult uses (Pew 2026)</h3>
+          <p class="ja" style="margin-bottom:12px">全成人に対する割合。就業者の38%が仕事で使う。情緒的サポートは10%、話し相手は4%。</p>
+          <p class="en" style="margin-bottom:12px">Share of all U.S. adults. 38% of employed adults use chatbots for work. Emotional support 10%; companionship 4%.</p>
+          <div class="bars-v" id="pew-use"></div>
+        </article>
+        <article class="card">
+          <h3 class="ja">日本の利用者の用途（ドコモ 2025）</h3>
+          <h3 class="en">Among Japanese users (Docomo 2025)</h3>
+          <p class="ja" style="margin-bottom:12px">生成AI利用者 1,995人。検索が最大。高校生は翻訳が相対的に多い。</p>
+          <p class="en" style="margin-bottom:12px">1,995 genAI users, ages 15–69. Search is first. High-school students are relatively heavy translators.</p>
+          <div class="bars-v" id="docomo-use"></div>
+          <p class="source ja">NTTドコモ モバイル社会研究所、2025年2月。2026年2月の追跡では15–69歳の現在利用率は51%（前年27%）。</p>
+          <p class="source en">NTT Docomo Mobile Society Research Institute, Feb 2025. By Feb 2026, current use among ages 15–69 was 51% (27% a year earlier).</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="tools">
+      <div class="sec-head">
+        <h2 class="ja">どの道具か</h2>
+        <h2 class="en">Which tools</h2>
+        <p class="ja">日本はテキストに偏る。画像・コードは米独中より低い。米国ではChatGPTが突出し、Gemini・Copilotが続く。男性に偏るのはGrok、Claude、Copilotで、ChatGPTは男女同率。</p>
+        <p class="en">Japan is text-heavy. Image and code use lag the U.S., Germany and China. In the U.S., ChatGPT dominates, then Gemini and Copilot. Grok, Claude and Copilot skew male; ChatGPT does not.</p>
+      </div>
+      <div class="grid-2">
+        <article class="card">
+          <h3 class="ja">種類別の利用経験（総務省、同一調査）</h3>
+          <h3 class="en">Ever used, by type (MIC, same survey)</h3>
+          <div id="service-types"></div>
+        </article>
+        <article class="card">
+          <h3 class="ja">米国で使われているチャットボット</h3>
+          <h3 class="en">Chatbots U.S. adults say they use</h3>
+          <div class="bars-v" id="pew-tools"></div>
+          <p class="source">Pew, Feb 2026. ChatGPT 44% of all adults; 61% of 18–29.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="world">
+      <div class="sec-head">
+        <h2 class="ja">国同士を同じ物差しで</h2>
+        <h2 class="en">Countries on one ruler</h2>
+        <p class="ja">Microsoft AI Diffusion。15–64歳がその四半期に生成AIを使った推計。日本は22.5%で147経済中48位。UAE 70%、米国 31%、中国 16%。世界は17.8%。</p>
+        <p class="en">Microsoft AI Diffusion: share of ages 15–64 who used genAI in the quarter. Japan 22.5%, 48th of 147. UAE 70%, U.S. 31%, China 16%. World 17.8%.</p>
+      </div>
+      <div class="toolbar">
+        <button class="chip" data-rank="major" aria-pressed="true"><span class="ja">主要国</span><span class="en">Major countries</span></button>
+        <button class="chip" data-rank="all" aria-pressed="false"><span class="ja">147経済すべて</span><span class="en">All 147 economies</span></button>
+        <input id="rank-q" type="search" placeholder="Search / 検索" aria-label="Filter countries">
+      </div>
+      <div class="rank-wrap" id="rank-list"></div>
+      <p class="source ja">出典: Microsoft AI Economy Institute / Our World in Data「Estimated share of working-age adults who use generative AI」。19の生成AIサービスへの訪問をテレメトリから推計し、OS・端末・ネット普及・人口で補正。単発利用を含む。調査の「経験率」とは一致しない。</p>
+      <p class="source en">Source: Microsoft AI Economy Institute via Our World in Data. Visits to 19 genAI services, modelled from telemetry. Includes one-off use. Not comparable to survey “ever used” rates.</p>
+
+      <div class="grid-2" style="margin-top:28px">
+        <article class="card">
+          <h3 class="ja">欧州の直近3か月（Eurostat）</h3>
+          <h3 class="en">Europe, last 3 months (Eurostat)</h3>
+          <p class="ja" style="margin-bottom:12px">ノルウェー 56%、デンマーク 48%、イタリア 20%、ルーマニア 18%。EU平均 33%。</p>
+          <p class="en" style="margin-bottom:12px">Norway 56%, Denmark 48%, Italy 20%, Romania 18%. EU-27 33%.</p>
+          <div class="rank-wrap" id="eu-rank" style="max-height:420px"></div>
+        </article>
+        <article class="card">
+          <h3 class="ja">高所得国と低所得国の裂け目</h3>
+          <h3 class="en">The high-income / low-income split</h3>
+          <p class="ja">世界銀行（2025年4月、ChatGPT）。高所得国のネット利用者の24%がChatGPTを使う。低所得国は0.7%。訪問回数は高所得国が低所得国の約50倍。</p>
+          <p class="en">World Bank (April 2025, ChatGPT). 24% of internet users in high-income countries use ChatGPT vs 0.7% in low-income countries. Visits per internet user are ~50× higher in HICs.</p>
+          <div class="bars-v" id="wb-income" style="margin-top:14px"></div>
+          <p class="source">Liu, Huang & Wang, World Bank PRWP 11231. ChatGPT was 77% of traffic to the top 60 consumer genAI tools in April 2025.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sources">
+      <div class="sec-head">
+        <h2 class="ja">出典と限界</h2>
+        <h2 class="en">Sources and limits</h2>
+        <p class="ja">一次資料のみ。二次まとめサイトの数字は使っていない。データは <a href="data/dataset.json">dataset.json</a> として公開。</p>
+        <p class="en">Primary sources only. No blog round-ups. The data file is public: <a href="data/dataset.json">dataset.json</a>.</p>
+      </div>
+      <dl class="sources-list">
+        <dt>総務省 令和8年版 情報通信白書</dt>
+        <dd>2025年度個人向け調査（実施 2026年1–2月）。日・米・独・中の比較、年齢、サービス種類、定期利用の用途。<a href="https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r08/pdf/n1110000.pdf">PDF</a></dd>
+        <dt>Eurostat isoc_ai_iaiu</dt>
+        <dd>2025年、16–74歳、直近3か月の生成AI利用。年齢・学歴・性別・私生活/仕事/教育。<a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Use_of_artificial_intelligence_by_individuals">Statistics Explained</a></dd>
+        <dt>Pew Research Center</dt>
+        <dd>Americans and AI 2026（2026年2月17–23日、n=5,119）。ChatGPT時系列、用途、人種、性別。就業者の職場AIは2025年9月調査（21%）。</dd>
+        <dt>Microsoft AI Diffusion / Our World in Data</dt>
+        <dd>15–64歳の期間利用率。147経済、2025 H1–2026 Q1。<a href="https://ourworldindata.org/grapher/estimated-share-people-generative-ai">OWID chart</a></dd>
+        <dt>OpenAI / NBER W34255</dt>
+        <dd>How People Use ChatGPT（2025年9月）。実会話の分類。仕事3割、案内・情報・文章で約80%。</dd>
+        <dt>World Bank PRWP 11231</dt>
+        <dd>Who on Earth Is Using Generative AI?（2025）。所得グループ別のChatGPT浸透。</dd>
+        <dt>NTTドコモ モバイル社会研究所</dt>
+        <dd>日本 15–69歳の現在利用率と、利用者の用途（検索46%、文章37%、翻訳32%）。</dd>
+      </dl>
+      <p class="note ja" style="margin-top:20px">限界: 総務省調査はインターネットパネルで、PewやEurostatの無作為抽出より高く出る。MicrosoftはWindows寄りのテレメトリを補正しているが、モバイル中心の市場では残差がありうる。中国の総務省数字は「使ったことがある」で、Microsoftの期間利用率（16%）とは別物。企業の「業務で使っている」（日本86%）は個人の利用率ではない。</p>
+      <p class="note en" style="margin-top:20px">Limits: MIC is an internet panel and reads higher than Pew/Eurostat probability samples. Microsoft adjusts Windows-heavy telemetry, but residual bias is possible in mobile-first markets. China’s 94% MIC “ever used” is not the same as Microsoft’s 16% quarterly usage. Firm-level “used in some business process” (Japan 86%) is not a person-level rate.</p>
+    </section>
+  </main>
+  <footer>
+    <p class="ja">可視化の再構成であり、各機関の公式見解ではない。数値の正は原典を優先する。</p>
+    <p class="en">A re-presentation of published statistics, not an official view of any agency. The source documents govern.</p>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2742 @@
+{
+  "meta": {
+    "title_ja": "誰が、何のために生成AIを使っているか",
+    "title_en": "Who uses generative AI, and for what",
+    "updated": "2026-08-25",
+    "note_ja": "指標の定義が違う数値は並べて比較できない。ページ上では同じ定義の系列だけを同じ図に載せている。",
+    "note_en": "Figures with different definitions cannot be compared side by side. Each chart uses a single, stated definition."
+  },
+  "microsoft_diffusion": {
+    "source": "Microsoft AI Economy Institute, AI Diffusion Report, processed by Our World in Data",
+    "source_url": "https://ourworldindata.org/grapher/estimated-share-people-generative-ai",
+    "definition_ja": "15–64歳のうち、対象期間中に生成AIのサイトまたはアプリを使った人の推計割合。Microsoftの匿名化テレメトリをOSシェア・端末・インターネット普及率・人口で補正。単発利用も含む。",
+    "definition_en": "Estimated share of people aged 15–64 who visited a generative AI website or app during the period. Built from anonymized Microsoft telemetry, adjusted for OS/device mix, internet penetration and population. Counts from one visit to daily use.",
+    "period_labels": {
+      "h1_2025": "2025 H1",
+      "h2_2025": "2025 H2",
+      "q1_2026": "2026 Q1"
+    },
+    "world": {
+      "h1_2025": 15.1,
+      "h2_2025": 16.3,
+      "q1_2026": 17.8
+    },
+    "north_south_h2_2025": {
+      "global_north": 24.7,
+      "global_south": 14.1
+    },
+    "japan": {
+      "h1_2025": 16.7,
+      "h2_2025": 19.1,
+      "q1_2026": 22.5,
+      "rank_q1_2026": 48,
+      "n_countries": 147
+    },
+    "countries": [
+      {
+        "name": "United Arab Emirates",
+        "code": "ARE",
+        "region": "Asia",
+        "h1_2025": 59.4,
+        "h2_2025": 64.0,
+        "q1_2026": 70.1,
+        "rank_q1_2026": 1,
+        "name_ja": "アラブ首長国連邦"
+      },
+      {
+        "name": "Singapore",
+        "code": "SGP",
+        "region": "Asia",
+        "h1_2025": 58.6,
+        "h2_2025": 60.9,
+        "q1_2026": 63.4,
+        "rank_q1_2026": 2,
+        "name_ja": "シンガポール"
+      },
+      {
+        "name": "Norway",
+        "code": "NOR",
+        "region": "Europe",
+        "h1_2025": 45.3,
+        "h2_2025": 46.4,
+        "q1_2026": 48.6,
+        "rank_q1_2026": 3,
+        "name_ja": "ノルウェー"
+      },
+      {
+        "name": "Ireland",
+        "code": "IRL",
+        "region": "Europe",
+        "h1_2025": 41.7,
+        "h2_2025": 44.6,
+        "q1_2026": 48.4,
+        "rank_q1_2026": 4,
+        "name_ja": "アイルランド"
+      },
+      {
+        "name": "France",
+        "code": "FRA",
+        "region": "Europe",
+        "h1_2025": 40.9,
+        "h2_2025": 44.0,
+        "q1_2026": 47.8,
+        "rank_q1_2026": 5,
+        "name_ja": "フランス"
+      },
+      {
+        "name": "Spain",
+        "code": "ESP",
+        "region": "Europe",
+        "h1_2025": 39.7,
+        "h2_2025": 41.8,
+        "q1_2026": 44.2,
+        "rank_q1_2026": 6,
+        "name_ja": "スペイン"
+      },
+      {
+        "name": "New Zealand",
+        "code": "NZL",
+        "region": "Oceania",
+        "h1_2025": 37.6,
+        "h2_2025": 40.5,
+        "q1_2026": 43.0,
+        "rank_q1_2026": 7,
+        "name_ja": "ニュージーランド"
+      },
+      {
+        "name": "United Kingdom",
+        "code": "GBR",
+        "region": "Europe",
+        "h1_2025": 36.4,
+        "h2_2025": 38.9,
+        "q1_2026": 42.2,
+        "rank_q1_2026": 8,
+        "name_ja": "イギリス"
+      },
+      {
+        "name": "Netherlands",
+        "code": "NLD",
+        "region": "Europe",
+        "h1_2025": 36.3,
+        "h2_2025": 38.9,
+        "q1_2026": 42.1,
+        "rank_q1_2026": 9,
+        "name_ja": "オランダ"
+      },
+      {
+        "name": "Qatar",
+        "code": "QAT",
+        "region": "Asia",
+        "h1_2025": 35.7,
+        "h2_2025": 38.3,
+        "q1_2026": 41.8,
+        "rank_q1_2026": 10,
+        "name_ja": "カタール"
+      },
+      {
+        "name": "Australia",
+        "code": "AUS",
+        "region": "Oceania",
+        "h1_2025": 34.5,
+        "h2_2025": 36.9,
+        "q1_2026": 39.5,
+        "rank_q1_2026": 11,
+        "name_ja": "オーストラリア"
+      },
+      {
+        "name": "Belgium",
+        "code": "BEL",
+        "region": "Europe",
+        "h1_2025": 33.5,
+        "h2_2025": 36.0,
+        "q1_2026": 39.0,
+        "rank_q1_2026": 12,
+        "name_ja": "ベルギー"
+      },
+      {
+        "name": "Israel",
+        "code": "ISR",
+        "region": "Asia",
+        "h1_2025": 33.9,
+        "h2_2025": 36.1,
+        "q1_2026": 38.1,
+        "rank_q1_2026": 13,
+        "name_ja": "イスラエル"
+      },
+      {
+        "name": "Switzerland",
+        "code": "CHE",
+        "region": "Europe",
+        "h1_2025": 32.4,
+        "h2_2025": 34.8,
+        "q1_2026": 37.8,
+        "rank_q1_2026": 14,
+        "name_ja": "スイス"
+      },
+      {
+        "name": "Canada",
+        "code": "CAN",
+        "region": "North America",
+        "h1_2025": 33.5,
+        "h2_2025": 35.0,
+        "q1_2026": 37.3,
+        "rank_q1_2026": 15,
+        "name_ja": "カナダ"
+      },
+      {
+        "name": "South Korea",
+        "code": "KOR",
+        "region": "Asia",
+        "h1_2025": 25.9,
+        "h2_2025": 30.7,
+        "q1_2026": 37.1,
+        "rank_q1_2026": 16,
+        "name_ja": "韓国"
+      },
+      {
+        "name": "Sweden",
+        "code": "SWE",
+        "region": "Europe",
+        "h1_2025": 31.2,
+        "h2_2025": 33.3,
+        "q1_2026": 36.1,
+        "rank_q1_2026": 17,
+        "name_ja": "スウェーデン"
+      },
+      {
+        "name": "Austria",
+        "code": "AUT",
+        "region": "Europe",
+        "h1_2025": 29.1,
+        "h2_2025": 31.4,
+        "q1_2026": 34.1,
+        "rank_q1_2026": 18,
+        "name_ja": "オーストリア"
+      },
+      {
+        "name": "Hungary",
+        "code": "HUN",
+        "region": "Europe",
+        "h1_2025": 27.9,
+        "h2_2025": 29.8,
+        "q1_2026": 32.2,
+        "rank_q1_2026": 19,
+        "name_ja": "ハンガリー"
+      },
+      {
+        "name": "Taiwan",
+        "code": "TWN",
+        "region": "Asia",
+        "h1_2025": 26.4,
+        "h2_2025": 28.4,
+        "q1_2026": 31.8,
+        "rank_q1_2026": 20,
+        "name_ja": "台湾"
+      },
+      {
+        "name": "United States",
+        "code": "USA",
+        "region": "North America",
+        "h1_2025": 26.3,
+        "h2_2025": 28.3,
+        "q1_2026": 31.3,
+        "rank_q1_2026": 21,
+        "name_ja": "アメリカ"
+      },
+      {
+        "name": "Denmark",
+        "code": "DNK",
+        "region": "Europe",
+        "h1_2025": 26.6,
+        "h2_2025": 28.7,
+        "q1_2026": 31.2,
+        "rank_q1_2026": 22,
+        "name_ja": "デンマーク"
+      },
+      {
+        "name": "Germany",
+        "code": "DEU",
+        "region": "Europe",
+        "h1_2025": 26.5,
+        "h2_2025": 28.6,
+        "q1_2026": 31.1,
+        "rank_q1_2026": 23,
+        "name_ja": "ドイツ"
+      },
+      {
+        "name": "Poland",
+        "code": "POL",
+        "region": "Europe",
+        "h1_2025": 26.4,
+        "h2_2025": 28.5,
+        "q1_2026": 31.0,
+        "rank_q1_2026": 24,
+        "name_ja": "ポーランド"
+      },
+      {
+        "name": "Italy",
+        "code": "ITA",
+        "region": "Europe",
+        "h1_2025": 25.8,
+        "h2_2025": 27.8,
+        "q1_2026": 30.2,
+        "rank_q1_2026": 25,
+        "name_ja": "イタリア"
+      },
+      {
+        "name": "Czechia",
+        "code": "CZE",
+        "region": "Europe",
+        "h1_2025": 26.0,
+        "h2_2025": 27.8,
+        "q1_2026": 30.1,
+        "rank_q1_2026": 26,
+        "name_ja": "チェコ"
+      },
+      {
+        "name": "Bulgaria",
+        "code": "BGR",
+        "region": "Europe",
+        "h1_2025": 25.4,
+        "h2_2025": 27.3,
+        "q1_2026": 29.7,
+        "rank_q1_2026": 27,
+        "name_ja": "Bulgaria"
+      },
+      {
+        "name": "Jordan",
+        "code": "JOR",
+        "region": "Asia",
+        "h1_2025": 25.4,
+        "h2_2025": 27.0,
+        "q1_2026": 29.7,
+        "rank_q1_2026": 28,
+        "name_ja": "Jordan"
+      },
+      {
+        "name": "Finland",
+        "code": "FIN",
+        "region": "Europe",
+        "h1_2025": 25.6,
+        "h2_2025": 27.3,
+        "q1_2026": 29.5,
+        "rank_q1_2026": 29,
+        "name_ja": "フィンランド"
+      },
+      {
+        "name": "Saudi Arabia",
+        "code": "SAU",
+        "region": "Asia",
+        "h1_2025": 23.7,
+        "h2_2025": 26.2,
+        "q1_2026": 29.4,
+        "rank_q1_2026": 30,
+        "name_ja": "サウジアラビア"
+      },
+      {
+        "name": "Slovenia",
+        "code": "SVN",
+        "region": "Europe",
+        "h1_2025": 24.6,
+        "h2_2025": 26.5,
+        "q1_2026": 29.0,
+        "rank_q1_2026": 31,
+        "name_ja": "Slovenia"
+      },
+      {
+        "name": "Costa Rica",
+        "code": "CRI",
+        "region": "North America",
+        "h1_2025": 25.1,
+        "h2_2025": 26.5,
+        "q1_2026": 28.5,
+        "rank_q1_2026": 32,
+        "name_ja": "Costa Rica"
+      },
+      {
+        "name": "Lebanon",
+        "code": "LBN",
+        "region": "Asia",
+        "h1_2025": 24.8,
+        "h2_2025": 25.7,
+        "q1_2026": 27.3,
+        "rank_q1_2026": 33,
+        "name_ja": "Lebanon"
+      },
+      {
+        "name": "Oman",
+        "code": "OMN",
+        "region": "Asia",
+        "h1_2025": 22.6,
+        "h2_2025": 24.2,
+        "q1_2026": 26.5,
+        "rank_q1_2026": 34,
+        "name_ja": "Oman"
+      },
+      {
+        "name": "Vietnam",
+        "code": "VNM",
+        "region": "Asia",
+        "h1_2025": 21.2,
+        "h2_2025": 23.5,
+        "q1_2026": 26.5,
+        "rank_q1_2026": 35,
+        "name_ja": "ベトナム"
+      },
+      {
+        "name": "Portugal",
+        "code": "PRT",
+        "region": "Europe",
+        "h1_2025": 22.4,
+        "h2_2025": 24.2,
+        "q1_2026": 26.4,
+        "rank_q1_2026": 36,
+        "name_ja": "ポルトガル"
+      },
+      {
+        "name": "Croatia",
+        "code": "HRV",
+        "region": "Europe",
+        "h1_2025": 21.8,
+        "h2_2025": 23.7,
+        "q1_2026": 26.1,
+        "rank_q1_2026": 37,
+        "name_ja": "Croatia"
+      },
+      {
+        "name": "Slovakia",
+        "code": "SVK",
+        "region": "Europe",
+        "h1_2025": 22.1,
+        "h2_2025": 23.8,
+        "q1_2026": 26.1,
+        "rank_q1_2026": 38,
+        "name_ja": "Slovakia"
+      },
+      {
+        "name": "Dominican Republic",
+        "code": "DOM",
+        "region": "North America",
+        "h1_2025": 22.0,
+        "h2_2025": 22.7,
+        "q1_2026": 24.8,
+        "rank_q1_2026": 39,
+        "name_ja": "Dominican Republic"
+      },
+      {
+        "name": "Uruguay",
+        "code": "URY",
+        "region": "South America",
+        "h1_2025": 20.9,
+        "h2_2025": 22.5,
+        "q1_2026": 24.6,
+        "rank_q1_2026": 40,
+        "name_ja": "Uruguay"
+      },
+      {
+        "name": "Colombia",
+        "code": "COL",
+        "region": "South America",
+        "h1_2025": 20.4,
+        "h2_2025": 22.0,
+        "q1_2026": 24.5,
+        "rank_q1_2026": 41,
+        "name_ja": "Colombia"
+      },
+      {
+        "name": "Lithuania",
+        "code": "LTU",
+        "region": "Europe",
+        "h1_2025": 21.0,
+        "h2_2025": 22.4,
+        "q1_2026": 24.3,
+        "rank_q1_2026": 42,
+        "name_ja": "Lithuania"
+      },
+      {
+        "name": "Serbia",
+        "code": "SRB",
+        "region": "Europe",
+        "h1_2025": 19.7,
+        "h2_2025": 21.5,
+        "q1_2026": 24.1,
+        "rank_q1_2026": 43,
+        "name_ja": "Serbia"
+      },
+      {
+        "name": "Jamaica",
+        "code": "JAM",
+        "region": "North America",
+        "h1_2025": 22.2,
+        "h2_2025": 22.1,
+        "q1_2026": 24.0,
+        "rank_q1_2026": 44,
+        "name_ja": "Jamaica"
+      },
+      {
+        "name": "Panama",
+        "code": "PAN",
+        "region": "North America",
+        "h1_2025": 20.3,
+        "h2_2025": 21.5,
+        "q1_2026": 23.3,
+        "rank_q1_2026": 45,
+        "name_ja": "Panama"
+      },
+      {
+        "name": "South Africa",
+        "code": "ZAF",
+        "region": "Africa",
+        "h1_2025": 19.3,
+        "h2_2025": 21.1,
+        "q1_2026": 23.1,
+        "rank_q1_2026": 46,
+        "name_ja": "南アフリカ"
+      },
+      {
+        "name": "Chile",
+        "code": "CHL",
+        "region": "South America",
+        "h1_2025": 19.6,
+        "h2_2025": 20.8,
+        "q1_2026": 22.7,
+        "rank_q1_2026": 47,
+        "name_ja": "チリ"
+      },
+      {
+        "name": "Japan",
+        "code": "JPN",
+        "region": "Asia",
+        "h1_2025": 16.7,
+        "h2_2025": 19.1,
+        "q1_2026": 22.5,
+        "rank_q1_2026": 48,
+        "name_ja": "日本"
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "region": "Europe",
+        "h1_2025": 18.2,
+        "h2_2025": 19.5,
+        "q1_2026": 22.1,
+        "rank_q1_2026": 49,
+        "name_ja": "Bosnia and Herzegovina"
+      },
+      {
+        "name": "Argentina",
+        "code": "ARG",
+        "region": "South America",
+        "h1_2025": 17.8,
+        "h2_2025": 19.6,
+        "q1_2026": 21.9,
+        "rank_q1_2026": 50,
+        "name_ja": "アルゼンチン"
+      },
+      {
+        "name": "Malaysia",
+        "code": "MYS",
+        "region": "Asia",
+        "h1_2025": 18.3,
+        "h2_2025": 19.7,
+        "q1_2026": 21.8,
+        "rank_q1_2026": 51,
+        "name_ja": "マレーシア"
+      },
+      {
+        "name": "Kuwait",
+        "code": "KWT",
+        "region": "Asia",
+        "h1_2025": 17.7,
+        "h2_2025": 19.1,
+        "q1_2026": 21.1,
+        "rank_q1_2026": 52,
+        "name_ja": "Kuwait"
+      },
+      {
+        "name": "Greece",
+        "code": "GRC",
+        "region": "Europe",
+        "h1_2025": 17.7,
+        "h2_2025": 19.1,
+        "q1_2026": 20.8,
+        "rank_q1_2026": 53,
+        "name_ja": "ギリシャ"
+      },
+      {
+        "name": "Georgia",
+        "code": "GEO",
+        "region": "Asia",
+        "h1_2025": 17.3,
+        "h2_2025": 18.2,
+        "q1_2026": 20.5,
+        "rank_q1_2026": 54,
+        "name_ja": "Georgia"
+      },
+      {
+        "name": "Mexico",
+        "code": "MEX",
+        "region": "North America",
+        "h1_2025": 16.7,
+        "h2_2025": 17.8,
+        "q1_2026": 20.1,
+        "rank_q1_2026": 55,
+        "name_ja": "メキシコ"
+      },
+      {
+        "name": "Philippines",
+        "code": "PHL",
+        "region": "Asia",
+        "h1_2025": 17.1,
+        "h2_2025": 18.3,
+        "q1_2026": 20.1,
+        "rank_q1_2026": 56,
+        "name_ja": "フィリピン"
+      },
+      {
+        "name": "Ecuador",
+        "code": "ECU",
+        "region": "South America",
+        "h1_2025": 17.0,
+        "h2_2025": 17.7,
+        "q1_2026": 19.5,
+        "rank_q1_2026": 57,
+        "name_ja": "Ecuador"
+      },
+      {
+        "name": "Brazil",
+        "code": "BRA",
+        "region": "South America",
+        "h1_2025": 15.6,
+        "h2_2025": 17.1,
+        "q1_2026": 19.1,
+        "rank_q1_2026": 58,
+        "name_ja": "ブラジル"
+      },
+      {
+        "name": "Albania",
+        "code": "ALB",
+        "region": "Europe",
+        "h1_2025": 15.8,
+        "h2_2025": 16.5,
+        "q1_2026": 18.5,
+        "rank_q1_2026": 59,
+        "name_ja": "Albania"
+      },
+      {
+        "name": "Moldova",
+        "code": "MDA",
+        "region": "Europe",
+        "h1_2025": 16.6,
+        "h2_2025": 17.0,
+        "q1_2026": 18.5,
+        "rank_q1_2026": 60,
+        "name_ja": "Moldova"
+      },
+      {
+        "name": "El Salvador",
+        "code": "SLV",
+        "region": "North America",
+        "h1_2025": 14.6,
+        "h2_2025": 16.2,
+        "q1_2026": 18.3,
+        "rank_q1_2026": 61,
+        "name_ja": "El Salvador"
+      },
+      {
+        "name": "Azerbaijan",
+        "code": "AZE",
+        "region": "Asia",
+        "h1_2025": 14.2,
+        "h2_2025": 15.5,
+        "q1_2026": 17.7,
+        "rank_q1_2026": 62,
+        "name_ja": "Azerbaijan"
+      },
+      {
+        "name": "India",
+        "code": "IND",
+        "region": "Asia",
+        "h1_2025": 14.2,
+        "h2_2025": 15.7,
+        "q1_2026": 17.6,
+        "rank_q1_2026": 63,
+        "name_ja": "インド"
+      },
+      {
+        "name": "Romania",
+        "code": "ROU",
+        "region": "Europe",
+        "h1_2025": 15.3,
+        "h2_2025": 16.2,
+        "q1_2026": 17.5,
+        "rank_q1_2026": 64,
+        "name_ja": "ルーマニア"
+      },
+      {
+        "name": "Turkey",
+        "code": "TUR",
+        "region": "Asia",
+        "h1_2025": 13.4,
+        "h2_2025": 14.6,
+        "q1_2026": 17.4,
+        "rank_q1_2026": 65,
+        "name_ja": "トルコ"
+      },
+      {
+        "name": "Mongolia",
+        "code": "MNG",
+        "region": "Asia",
+        "h1_2025": 12.6,
+        "h2_2025": 14.3,
+        "q1_2026": 16.7,
+        "rank_q1_2026": 66,
+        "name_ja": "Mongolia"
+      },
+      {
+        "name": "China",
+        "code": "CHN",
+        "region": "Asia",
+        "h1_2025": 15.4,
+        "h2_2025": 16.3,
+        "q1_2026": 16.4,
+        "rank_q1_2026": 67,
+        "name_ja": "中国"
+      },
+      {
+        "name": "Guatemala",
+        "code": "GTM",
+        "region": "North America",
+        "h1_2025": 13.7,
+        "h2_2025": 14.8,
+        "q1_2026": 16.4,
+        "rank_q1_2026": 68,
+        "name_ja": "Guatemala"
+      },
+      {
+        "name": "Peru",
+        "code": "PER",
+        "region": "South America",
+        "h1_2025": 13.4,
+        "h2_2025": 14.7,
+        "q1_2026": 16.4,
+        "rank_q1_2026": 69,
+        "name_ja": "Peru"
+      },
+      {
+        "name": "Kazakhstan",
+        "code": "KAZ",
+        "region": "Asia",
+        "h1_2025": 12.7,
+        "h2_2025": 13.7,
+        "q1_2026": 15.9,
+        "rank_q1_2026": 70,
+        "name_ja": "Kazakhstan"
+      },
+      {
+        "name": "Namibia",
+        "code": "NAM",
+        "region": "Africa",
+        "h1_2025": 13.0,
+        "h2_2025": 13.8,
+        "q1_2026": 15.1,
+        "rank_q1_2026": 71,
+        "name_ja": "Namibia"
+      },
+      {
+        "name": "Gabon",
+        "code": "GAB",
+        "region": "Africa",
+        "h1_2025": 12.3,
+        "h2_2025": 13.4,
+        "q1_2026": 15.0,
+        "rank_q1_2026": 72,
+        "name_ja": "Gabon"
+      },
+      {
+        "name": "Libya",
+        "code": "LBY",
+        "region": "Africa",
+        "h1_2025": 12.7,
+        "h2_2025": 13.7,
+        "q1_2026": 15.0,
+        "rank_q1_2026": 73,
+        "name_ja": "Libya"
+      },
+      {
+        "name": "Botswana",
+        "code": "BWA",
+        "region": "Africa",
+        "h1_2025": 12.8,
+        "h2_2025": 13.7,
+        "q1_2026": 14.8,
+        "rank_q1_2026": 74,
+        "name_ja": "Botswana"
+      },
+      {
+        "name": "Egypt",
+        "code": "EGY",
+        "region": "Africa",
+        "h1_2025": 12.5,
+        "h2_2025": 13.4,
+        "q1_2026": 14.8,
+        "rank_q1_2026": 75,
+        "name_ja": "Egypt"
+      },
+      {
+        "name": "Nepal",
+        "code": "NPL",
+        "region": "Asia",
+        "h1_2025": 12.3,
+        "h2_2025": 13.0,
+        "q1_2026": 14.2,
+        "rank_q1_2026": 76,
+        "name_ja": "Nepal"
+      },
+      {
+        "name": "Indonesia",
+        "code": "IDN",
+        "region": "Asia",
+        "h1_2025": 11.7,
+        "h2_2025": 12.7,
+        "q1_2026": 14.1,
+        "rank_q1_2026": 77,
+        "name_ja": "インドネシア"
+      },
+      {
+        "name": "Honduras",
+        "code": "HND",
+        "region": "North America",
+        "h1_2025": 12.4,
+        "h2_2025": 13.1,
+        "q1_2026": 14.0,
+        "rank_q1_2026": 78,
+        "name_ja": "Honduras"
+      },
+      {
+        "name": "Senegal",
+        "code": "SEN",
+        "region": "Africa",
+        "h1_2025": 12.4,
+        "h2_2025": 12.9,
+        "q1_2026": 13.9,
+        "rank_q1_2026": 79,
+        "name_ja": "Senegal"
+      },
+      {
+        "name": "Tunisia",
+        "code": "TUN",
+        "region": "Africa",
+        "h1_2025": 12.3,
+        "h2_2025": 12.7,
+        "q1_2026": 13.5,
+        "rank_q1_2026": 80,
+        "name_ja": "Tunisia"
+      },
+      {
+        "name": "Algeria",
+        "code": "DZA",
+        "region": "Africa",
+        "h1_2025": 11.3,
+        "h2_2025": 12.0,
+        "q1_2026": 13.2,
+        "rank_q1_2026": 81,
+        "name_ja": "Algeria"
+      },
+      {
+        "name": "Cote d'Ivoire",
+        "code": "CIV",
+        "region": "Africa",
+        "h1_2025": 10.8,
+        "h2_2025": 11.7,
+        "q1_2026": 13.1,
+        "rank_q1_2026": 82,
+        "name_ja": "Cote d'Ivoire"
+      },
+      {
+        "name": "Zambia",
+        "code": "ZMB",
+        "region": "Africa",
+        "h1_2025": 11.7,
+        "h2_2025": 12.3,
+        "q1_2026": 13.1,
+        "rank_q1_2026": 83,
+        "name_ja": "Zambia"
+      },
+      {
+        "name": "Bolivia",
+        "code": "BOL",
+        "region": "South America",
+        "h1_2025": 10.9,
+        "h2_2025": 11.6,
+        "q1_2026": 12.7,
+        "rank_q1_2026": 84,
+        "name_ja": "Bolivia"
+      },
+      {
+        "name": "Iran",
+        "code": "IRN",
+        "region": "Asia",
+        "h1_2025": 9.6,
+        "h2_2025": 10.7,
+        "q1_2026": 12.6,
+        "rank_q1_2026": 85,
+        "name_ja": "Iran"
+      },
+      {
+        "name": "Iraq",
+        "code": "IRQ",
+        "region": "Asia",
+        "h1_2025": 10.3,
+        "h2_2025": 11.2,
+        "q1_2026": 12.5,
+        "rank_q1_2026": 86,
+        "name_ja": "Iraq"
+      },
+      {
+        "name": "Thailand",
+        "code": "THA",
+        "region": "Asia",
+        "h1_2025": 9.1,
+        "h2_2025": 10.7,
+        "q1_2026": 12.4,
+        "rank_q1_2026": 87,
+        "name_ja": "タイ"
+      },
+      {
+        "name": "Paraguay",
+        "code": "PRY",
+        "region": "South America",
+        "h1_2025": 10.1,
+        "h2_2025": 11.0,
+        "q1_2026": 12.2,
+        "rank_q1_2026": 88,
+        "name_ja": "Paraguay"
+      },
+      {
+        "name": "Nicaragua",
+        "code": "NIC",
+        "region": "North America",
+        "h1_2025": 10.0,
+        "h2_2025": 10.7,
+        "q1_2026": 11.8,
+        "rank_q1_2026": 89,
+        "name_ja": "Nicaragua"
+      },
+      {
+        "name": "Morocco",
+        "code": "MAR",
+        "region": "Africa",
+        "h1_2025": 10.5,
+        "h2_2025": 10.9,
+        "q1_2026": 11.7,
+        "rank_q1_2026": 90,
+        "name_ja": "Morocco"
+      },
+      {
+        "name": "Gambia",
+        "code": "GMB",
+        "region": "Africa",
+        "h1_2025": 10.6,
+        "h2_2025": 10.9,
+        "q1_2026": 11.4,
+        "rank_q1_2026": 91,
+        "name_ja": "Gambia"
+      },
+      {
+        "name": "Pakistan",
+        "code": "PAK",
+        "region": "Asia",
+        "h1_2025": 9.7,
+        "h2_2025": 10.3,
+        "q1_2026": 11.4,
+        "rank_q1_2026": 92,
+        "name_ja": "Pakistan"
+      },
+      {
+        "name": "Angola",
+        "code": "AGO",
+        "region": "Africa",
+        "h1_2025": 8.9,
+        "h2_2025": 9.7,
+        "q1_2026": 10.9,
+        "rank_q1_2026": 93,
+        "name_ja": "Angola"
+      },
+      {
+        "name": "Madagascar",
+        "code": "MDG",
+        "region": "Africa",
+        "h1_2025": 8.9,
+        "h2_2025": 9.7,
+        "q1_2026": 10.9,
+        "rank_q1_2026": 94,
+        "name_ja": "Madagascar"
+      },
+      {
+        "name": "Malawi",
+        "code": "MWI",
+        "region": "Africa",
+        "h1_2025": 8.9,
+        "h2_2025": 9.7,
+        "q1_2026": 10.9,
+        "rank_q1_2026": 95,
+        "name_ja": "Malawi"
+      },
+      {
+        "name": "Mozambique",
+        "code": "MOZ",
+        "region": "Africa",
+        "h1_2025": 8.9,
+        "h2_2025": 9.7,
+        "q1_2026": 10.9,
+        "rank_q1_2026": 96,
+        "name_ja": "Mozambique"
+      },
+      {
+        "name": "French Guiana",
+        "code": "GUF",
+        "region": "South America",
+        "h1_2025": 8.3,
+        "h2_2025": 9.0,
+        "q1_2026": 10.3,
+        "rank_q1_2026": 97,
+        "name_ja": "French Guiana"
+      },
+      {
+        "name": "Guyana",
+        "code": "GUY",
+        "region": "South America",
+        "h1_2025": 8.3,
+        "h2_2025": 9.0,
+        "q1_2026": 10.3,
+        "rank_q1_2026": 98,
+        "name_ja": "Guyana"
+      },
+      {
+        "name": "Suriname",
+        "code": "SUR",
+        "region": "South America",
+        "h1_2025": 8.3,
+        "h2_2025": 9.0,
+        "q1_2026": 10.3,
+        "rank_q1_2026": 99,
+        "name_ja": "Suriname"
+      },
+      {
+        "name": "Venezuela",
+        "code": "VEN",
+        "region": "South America",
+        "h1_2025": 8.3,
+        "h2_2025": 9.0,
+        "q1_2026": 10.3,
+        "rank_q1_2026": 100,
+        "name_ja": "Venezuela"
+      },
+      {
+        "name": "Benin",
+        "code": "BEN",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 101,
+        "name_ja": "Benin"
+      },
+      {
+        "name": "Burkina Faso",
+        "code": "BFA",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 102,
+        "name_ja": "Burkina Faso"
+      },
+      {
+        "name": "Ghana",
+        "code": "GHA",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 103,
+        "name_ja": "Ghana"
+      },
+      {
+        "name": "Guinea",
+        "code": "GIN",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 104,
+        "name_ja": "Guinea"
+      },
+      {
+        "name": "Guinea-Bissau",
+        "code": "GNB",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 105,
+        "name_ja": "Guinea-Bissau"
+      },
+      {
+        "name": "Liberia",
+        "code": "LBR",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 106,
+        "name_ja": "Liberia"
+      },
+      {
+        "name": "Mali",
+        "code": "MLI",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 107,
+        "name_ja": "Mali"
+      },
+      {
+        "name": "Mauritania",
+        "code": "MRT",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 108,
+        "name_ja": "Mauritania"
+      },
+      {
+        "name": "Niger",
+        "code": "NER",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 109,
+        "name_ja": "Niger"
+      },
+      {
+        "name": "Nigeria",
+        "code": "NGA",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 110,
+        "name_ja": "Nigeria"
+      },
+      {
+        "name": "Sierra Leone",
+        "code": "SLE",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 111,
+        "name_ja": "Sierra Leone"
+      },
+      {
+        "name": "Togo",
+        "code": "TGO",
+        "region": "Africa",
+        "h1_2025": 8.7,
+        "h2_2025": 9.3,
+        "q1_2026": 10.1,
+        "rank_q1_2026": 112,
+        "name_ja": "Togo"
+      },
+      {
+        "name": "Myanmar",
+        "code": "MMR",
+        "region": "Asia",
+        "h1_2025": 8.4,
+        "h2_2025": 9.1,
+        "q1_2026": 10.0,
+        "rank_q1_2026": 113,
+        "name_ja": "Myanmar"
+      },
+      {
+        "name": "Lesotho",
+        "code": "LSO",
+        "region": "Africa",
+        "h1_2025": 8.8,
+        "h2_2025": 9.1,
+        "q1_2026": 9.8,
+        "rank_q1_2026": 114,
+        "name_ja": "Lesotho"
+      },
+      {
+        "name": "Belarus",
+        "code": "BLR",
+        "region": "Europe",
+        "h1_2025": 7.6,
+        "h2_2025": 8.4,
+        "q1_2026": 9.6,
+        "rank_q1_2026": 115,
+        "name_ja": "Belarus"
+      },
+      {
+        "name": "Kyrgyzstan",
+        "code": "KGZ",
+        "region": "Asia",
+        "h1_2025": 7.6,
+        "h2_2025": 8.2,
+        "q1_2026": 9.5,
+        "rank_q1_2026": 116,
+        "name_ja": "Kyrgyzstan"
+      },
+      {
+        "name": "Russia",
+        "code": "RUS",
+        "region": "Europe",
+        "h1_2025": 7.6,
+        "h2_2025": 8.0,
+        "q1_2026": 9.5,
+        "rank_q1_2026": 117,
+        "name_ja": "Russia"
+      },
+      {
+        "name": "Ukraine",
+        "code": "UKR",
+        "region": "Europe",
+        "h1_2025": 9.1,
+        "h2_2025": 9.0,
+        "q1_2026": 9.4,
+        "rank_q1_2026": 118,
+        "name_ja": "Ukraine"
+      },
+      {
+        "name": "Cameroon",
+        "code": "CMR",
+        "region": "Africa",
+        "h1_2025": 7.0,
+        "h2_2025": 7.8,
+        "q1_2026": 8.7,
+        "rank_q1_2026": 119,
+        "name_ja": "Cameroon"
+      },
+      {
+        "name": "Central African Republic",
+        "code": "CAF",
+        "region": "Africa",
+        "h1_2025": 7.0,
+        "h2_2025": 7.8,
+        "q1_2026": 8.7,
+        "rank_q1_2026": 120,
+        "name_ja": "Central African Republic"
+      },
+      {
+        "name": "Chad",
+        "code": "TCD",
+        "region": "Africa",
+        "h1_2025": 7.0,
+        "h2_2025": 7.8,
+        "q1_2026": 8.7,
+        "rank_q1_2026": 121,
+        "name_ja": "Chad"
+      },
+      {
+        "name": "Congo",
+        "code": "COG",
+        "region": "Africa",
+        "h1_2025": 7.0,
+        "h2_2025": 7.8,
+        "q1_2026": 8.7,
+        "rank_q1_2026": 122,
+        "name_ja": "Congo"
+      },
+      {
+        "name": "Democratic Republic of Congo",
+        "code": "COD",
+        "region": "Africa",
+        "h1_2025": 7.0,
+        "h2_2025": 7.8,
+        "q1_2026": 8.7,
+        "rank_q1_2026": 123,
+        "name_ja": "Democratic Republic of Congo"
+      },
+      {
+        "name": "Kenya",
+        "code": "KEN",
+        "region": "Africa",
+        "h1_2025": 7.8,
+        "h2_2025": 8.1,
+        "q1_2026": 8.7,
+        "rank_q1_2026": 124,
+        "name_ja": "Kenya"
+      },
+      {
+        "name": "Haiti",
+        "code": "HTI",
+        "region": "North America",
+        "h1_2025": 7.1,
+        "h2_2025": 7.6,
+        "q1_2026": 8.5,
+        "rank_q1_2026": 125,
+        "name_ja": "Haiti"
+      },
+      {
+        "name": "Zimbabwe",
+        "code": "ZWE",
+        "region": "Africa",
+        "h1_2025": 6.9,
+        "h2_2025": 7.6,
+        "q1_2026": 8.5,
+        "rank_q1_2026": 126,
+        "name_ja": "Zimbabwe"
+      },
+      {
+        "name": "Bangladesh",
+        "code": "BGD",
+        "region": "Asia",
+        "h1_2025": 6.5,
+        "h2_2025": 7.1,
+        "q1_2026": 7.8,
+        "rank_q1_2026": 127,
+        "name_ja": "Bangladesh"
+      },
+      {
+        "name": "Laos",
+        "code": "LAO",
+        "region": "Asia",
+        "h1_2025": 6.0,
+        "h2_2025": 6.7,
+        "q1_2026": 7.8,
+        "rank_q1_2026": 128,
+        "name_ja": "Laos"
+      },
+      {
+        "name": "Papua New Guinea",
+        "code": "PNG",
+        "region": "Oceania",
+        "h1_2025": 7.2,
+        "h2_2025": 7.3,
+        "q1_2026": 7.7,
+        "rank_q1_2026": 129,
+        "name_ja": "Papua New Guinea"
+      },
+      {
+        "name": "Burundi",
+        "code": "BDI",
+        "region": "Africa",
+        "h1_2025": 6.4,
+        "h2_2025": 6.8,
+        "q1_2026": 7.6,
+        "rank_q1_2026": 130,
+        "name_ja": "Burundi"
+      },
+      {
+        "name": "Eritrea",
+        "code": "ERI",
+        "region": "Africa",
+        "h1_2025": 6.4,
+        "h2_2025": 6.8,
+        "q1_2026": 7.6,
+        "rank_q1_2026": 131,
+        "name_ja": "Eritrea"
+      },
+      {
+        "name": "Ethiopia",
+        "code": "ETH",
+        "region": "Africa",
+        "h1_2025": 6.4,
+        "h2_2025": 6.8,
+        "q1_2026": 7.6,
+        "rank_q1_2026": 132,
+        "name_ja": "Ethiopia"
+      },
+      {
+        "name": "Somalia",
+        "code": "SOM",
+        "region": "Africa",
+        "h1_2025": 6.4,
+        "h2_2025": 6.8,
+        "q1_2026": 7.6,
+        "rank_q1_2026": 133,
+        "name_ja": "Somalia"
+      },
+      {
+        "name": "South Sudan",
+        "code": "SSD",
+        "region": "Africa",
+        "h1_2025": 6.4,
+        "h2_2025": 6.8,
+        "q1_2026": 7.6,
+        "rank_q1_2026": 134,
+        "name_ja": "South Sudan"
+      },
+      {
+        "name": "Sudan",
+        "code": "SDN",
+        "region": "Africa",
+        "h1_2025": 6.4,
+        "h2_2025": 6.8,
+        "q1_2026": 7.6,
+        "rank_q1_2026": 135,
+        "name_ja": "Sudan"
+      },
+      {
+        "name": "Tanzania",
+        "code": "TZA",
+        "region": "Africa",
+        "h1_2025": 6.4,
+        "h2_2025": 6.8,
+        "q1_2026": 7.6,
+        "rank_q1_2026": 136,
+        "name_ja": "Tanzania"
+      },
+      {
+        "name": "Uganda",
+        "code": "UGA",
+        "region": "Africa",
+        "h1_2025": 6.4,
+        "h2_2025": 6.8,
+        "q1_2026": 7.6,
+        "rank_q1_2026": 137,
+        "name_ja": "Uganda"
+      },
+      {
+        "name": "Syria",
+        "code": "SYR",
+        "region": "Asia",
+        "h1_2025": 6.7,
+        "h2_2025": 7.1,
+        "q1_2026": 7.5,
+        "rank_q1_2026": 138,
+        "name_ja": "Syria"
+      },
+      {
+        "name": "Armenia",
+        "code": "ARM",
+        "region": "Asia",
+        "h1_2025": 6.2,
+        "h2_2025": 6.6,
+        "q1_2026": 7.4,
+        "rank_q1_2026": 139,
+        "name_ja": "Armenia"
+      },
+      {
+        "name": "Sri Lanka",
+        "code": "LKA",
+        "region": "Asia",
+        "h1_2025": 6.2,
+        "h2_2025": 6.6,
+        "q1_2026": 7.3,
+        "rank_q1_2026": 140,
+        "name_ja": "Sri Lanka"
+      },
+      {
+        "name": "Rwanda",
+        "code": "RWA",
+        "region": "Africa",
+        "h1_2025": 6.0,
+        "h2_2025": 6.3,
+        "q1_2026": 7.2,
+        "rank_q1_2026": 141,
+        "name_ja": "Rwanda"
+      },
+      {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "region": "Asia",
+        "h1_2025": 5.7,
+        "h2_2025": 6.3,
+        "q1_2026": 7.2,
+        "rank_q1_2026": 142,
+        "name_ja": "Uzbekistan"
+      },
+      {
+        "name": "Cuba",
+        "code": "CUB",
+        "region": "North America",
+        "h1_2025": 5.7,
+        "h2_2025": 6.1,
+        "q1_2026": 6.7,
+        "rank_q1_2026": 143,
+        "name_ja": "Cuba"
+      },
+      {
+        "name": "Afghanistan",
+        "code": "AFG",
+        "region": "Asia",
+        "h1_2025": 5.1,
+        "h2_2025": 5.6,
+        "q1_2026": 6.1,
+        "rank_q1_2026": 144,
+        "name_ja": "Afghanistan"
+      },
+      {
+        "name": "Tajikistan",
+        "code": "TJK",
+        "region": "Asia",
+        "h1_2025": 5.1,
+        "h2_2025": 5.6,
+        "q1_2026": 6.1,
+        "rank_q1_2026": 145,
+        "name_ja": "Tajikistan"
+      },
+      {
+        "name": "Turkmenistan",
+        "code": "TKM",
+        "region": "Asia",
+        "h1_2025": 5.1,
+        "h2_2025": 5.6,
+        "q1_2026": 6.1,
+        "rank_q1_2026": 146,
+        "name_ja": "Turkmenistan"
+      },
+      {
+        "name": "Cambodia",
+        "code": "KHM",
+        "region": "Asia",
+        "h1_2025": 4.6,
+        "h2_2025": 5.1,
+        "q1_2026": 5.7,
+        "rank_q1_2026": 147,
+        "name_ja": "Cambodia"
+      }
+    ]
+  },
+  "eurostat": {
+    "source": "Eurostat, ICT usage in households and by individuals (isoc_ai_iaiu), 2025",
+    "source_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Use_of_artificial_intelligence_by_individuals",
+    "definition_ja": "16–74歳が、調査前3か月に生成AI（ChatGPT、Copilot、Gemini、Midjourney等）でテキスト・画像・コード・動画などを作った割合。EU加盟国の公式統計。約33万人。",
+    "definition_en": "Share of people aged 16–74 who used generative AI tools (e.g. ChatGPT, Copilot, Gemini, Midjourney) to create content in the previous 3 months. Official EU survey of ~330,000 people.",
+    "eu27_total": 32.66,
+    "countries": [
+      {
+        "name": "Norway",
+        "code": "NOR",
+        "year": 2025,
+        "pct_last_3_months": 56.32,
+        "name_ja": "ノルウェー"
+      },
+      {
+        "name": "Denmark",
+        "code": "DNK",
+        "year": 2025,
+        "pct_last_3_months": 48.44,
+        "name_ja": "デンマーク"
+      },
+      {
+        "name": "Switzerland",
+        "code": "CHE",
+        "year": 2025,
+        "pct_last_3_months": 47.02,
+        "name_ja": "スイス"
+      },
+      {
+        "name": "Estonia",
+        "code": "EST",
+        "year": 2025,
+        "pct_last_3_months": 46.64,
+        "name_ja": "エストニア"
+      },
+      {
+        "name": "Malta",
+        "code": "MLT",
+        "year": 2025,
+        "pct_last_3_months": 46.46,
+        "name_ja": "マルタ"
+      },
+      {
+        "name": "Finland",
+        "code": "FIN",
+        "year": 2025,
+        "pct_last_3_months": 46.27,
+        "name_ja": "フィンランド"
+      },
+      {
+        "name": "Ireland",
+        "code": "IRL",
+        "year": 2025,
+        "pct_last_3_months": 44.93,
+        "name_ja": "アイルランド"
+      },
+      {
+        "name": "Netherlands",
+        "code": "NLD",
+        "year": 2025,
+        "pct_last_3_months": 44.7,
+        "name_ja": "オランダ"
+      },
+      {
+        "name": "Cyprus",
+        "code": "CYP",
+        "year": 2025,
+        "pct_last_3_months": 44.2,
+        "name_ja": "キプロス"
+      },
+      {
+        "name": "Greece",
+        "code": "GRC",
+        "year": 2025,
+        "pct_last_3_months": 44.09,
+        "name_ja": "ギリシャ"
+      },
+      {
+        "name": "Luxembourg",
+        "code": "LUX",
+        "year": 2025,
+        "pct_last_3_months": 42.54,
+        "name_ja": "ルクセンブルク"
+      },
+      {
+        "name": "Belgium",
+        "code": "BEL",
+        "year": 2025,
+        "pct_last_3_months": 42.01,
+        "name_ja": "ベルギー"
+      },
+      {
+        "name": "Sweden",
+        "code": "SWE",
+        "year": 2025,
+        "pct_last_3_months": 42.01,
+        "name_ja": "スウェーデン"
+      },
+      {
+        "name": "Austria",
+        "code": "AUT",
+        "year": 2025,
+        "pct_last_3_months": 39.42,
+        "name_ja": "オーストリア"
+      },
+      {
+        "name": "Portugal",
+        "code": "PRT",
+        "year": 2025,
+        "pct_last_3_months": 38.7,
+        "name_ja": "ポルトガル"
+      },
+      {
+        "name": "Spain",
+        "code": "ESP",
+        "year": 2025,
+        "pct_last_3_months": 37.88,
+        "name_ja": "スペイン"
+      },
+      {
+        "name": "Slovenia",
+        "code": "SVN",
+        "year": 2025,
+        "pct_last_3_months": 37.56,
+        "name_ja": "スロベニア"
+      },
+      {
+        "name": "France",
+        "code": "FRA",
+        "year": 2025,
+        "pct_last_3_months": 37.46,
+        "name_ja": "フランス"
+      },
+      {
+        "name": "Lithuania",
+        "code": "LTU",
+        "year": 2025,
+        "pct_last_3_months": 36.89,
+        "name_ja": "リトアニア"
+      },
+      {
+        "name": "Czechia",
+        "code": "CZE",
+        "year": 2025,
+        "pct_last_3_months": 35.35,
+        "name_ja": "チェコ"
+      },
+      {
+        "name": "Latvia",
+        "code": "LVA",
+        "year": 2025,
+        "pct_last_3_months": 33.4,
+        "name_ja": "ラトビア"
+      },
+      {
+        "name": "Germany",
+        "code": "DEU",
+        "year": 2025,
+        "pct_last_3_months": 32.25,
+        "name_ja": "ドイツ"
+      },
+      {
+        "name": "Slovakia",
+        "code": "SVK",
+        "year": 2025,
+        "pct_last_3_months": 30.79,
+        "name_ja": "スロバキア"
+      },
+      {
+        "name": "Hungary",
+        "code": "HUN",
+        "year": 2025,
+        "pct_last_3_months": 29.56,
+        "name_ja": "ハンガリー"
+      },
+      {
+        "name": "Croatia",
+        "code": "HRV",
+        "year": 2025,
+        "pct_last_3_months": 27.52,
+        "name_ja": "クロアチア"
+      },
+      {
+        "name": "Poland",
+        "code": "POL",
+        "year": 2025,
+        "pct_last_3_months": 22.68,
+        "name_ja": "ポーランド"
+      },
+      {
+        "name": "Bulgaria",
+        "code": "BGR",
+        "year": 2025,
+        "pct_last_3_months": 22.5,
+        "name_ja": "ブルガリア"
+      },
+      {
+        "name": "North Macedonia",
+        "code": "MKD",
+        "year": 2025,
+        "pct_last_3_months": 22.03,
+        "name_ja": "北マケドニア"
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "year": 2025,
+        "pct_last_3_months": 20.26,
+        "name_ja": "ボスニア・ヘルツェゴビナ"
+      },
+      {
+        "name": "Italy",
+        "code": "ITA",
+        "year": 2025,
+        "pct_last_3_months": 19.86,
+        "name_ja": "イタリア"
+      },
+      {
+        "name": "Serbia",
+        "code": "SRB",
+        "year": 2025,
+        "pct_last_3_months": 18.64,
+        "name_ja": "セルビア"
+      },
+      {
+        "name": "Romania",
+        "code": "ROU",
+        "year": 2025,
+        "pct_last_3_months": 17.76,
+        "name_ja": "ルーマニア"
+      },
+      {
+        "name": "Turkey",
+        "code": "TUR",
+        "year": 2025,
+        "pct_last_3_months": 17.19,
+        "name_ja": "トルコ"
+      }
+    ],
+    "age_eu": [
+      {
+        "band": "16–19",
+        "pct": 66.38
+      },
+      {
+        "band": "16–24",
+        "pct": 63.81
+      },
+      {
+        "band": "20–24",
+        "pct": 61.6
+      },
+      {
+        "band": "25–29",
+        "pct": 54.31
+      },
+      {
+        "band": "25–34",
+        "pct": 50.65
+      },
+      {
+        "band": "35–44",
+        "pct": 38.96
+      },
+      {
+        "band": "45–54",
+        "pct": 28.35
+      },
+      {
+        "band": "55–64",
+        "pct": 16.49
+      },
+      {
+        "band": "65–74",
+        "pct": 6.5
+      }
+    ],
+    "gender_eu": {
+      "men": 34.91,
+      "women": 30.45
+    },
+    "education_eu": {
+      "low": 22.27,
+      "medium": 25.71,
+      "high": 48.98
+    },
+    "education_25_64": {
+      "low": 13.27,
+      "medium": 23.58,
+      "high": 51.55
+    },
+    "purpose_among_users_eu": {
+      "note_ja": "生成AI利用者のうち、各目的で使った割合（複数回答）。母数は利用者。",
+      "note_en": "Among people who used generative AI, share using it for each purpose (multiple answers). Denominator is users.",
+      "by_age": [
+        {
+          "band": "16–74",
+          "private": 78.04,
+          "work": 47.02,
+          "education": 28.54
+        },
+        {
+          "band": "16–24",
+          "private": 70.6,
+          "work": 25.51,
+          "education": 64.22
+        },
+        {
+          "band": "25–34",
+          "private": 83.69,
+          "work": 54.17,
+          "education": 19.16
+        },
+        {
+          "band": "35–44",
+          "private": 80.78,
+          "work": 56.64,
+          "education": 15.62
+        },
+        {
+          "band": "45–54",
+          "private": 76.38,
+          "work": 57.78,
+          "education": 17.54
+        },
+        {
+          "band": "55–64",
+          "private": 77.13,
+          "work": 53.05,
+          "education": 12.24
+        },
+        {
+          "band": "65–74",
+          "private": 87.46,
+          "work": 23.12,
+          "education": 10.32
+        }
+      ]
+    },
+    "purpose_of_population": {
+      "note_ja": "16–74歳人口に占める割合（利用者に限らない）。",
+      "note_en": "Share of the 16–74 population (not just users).",
+      "eu27": {
+        "any": 32.66,
+        "private": 25.49,
+        "work": 15.36,
+        "education": 9.32
+      },
+      "countries": [
+        {
+          "name": "Norway",
+          "name_ja": "ノルウェー",
+          "any": 56.32,
+          "private": 47.27,
+          "work": 35.44,
+          "education": 14.23
+        },
+        {
+          "name": "Denmark",
+          "name_ja": "デンマーク",
+          "any": 48.44,
+          "private": 34.79,
+          "work": 27.17,
+          "education": 17.86
+        },
+        {
+          "name": "Switzerland",
+          "name_ja": "スイス",
+          "any": 47.02,
+          "private": 40.87,
+          "work": 34.4,
+          "education": 20.69
+        },
+        {
+          "name": "Netherlands",
+          "name_ja": "オランダ",
+          "any": 44.7,
+          "private": 28.07,
+          "work": 26.56,
+          "education": 13.1
+        },
+        {
+          "name": "France",
+          "name_ja": "フランス",
+          "any": 37.46,
+          "private": 27.69,
+          "work": 18.44,
+          "education": 10.96
+        },
+        {
+          "name": "Spain",
+          "name_ja": "スペイン",
+          "any": 37.88,
+          "private": 30.24,
+          "work": 17.94,
+          "education": 16.26
+        },
+        {
+          "name": "Germany",
+          "name_ja": "ドイツ",
+          "any": 32.25,
+          "private": 27.2,
+          "work": 15.79,
+          "education": 6.04
+        },
+        {
+          "name": "Italy",
+          "name_ja": "イタリア",
+          "any": 19.86,
+          "private": 12.81,
+          "work": 8.0,
+          "education": 6.37
+        },
+        {
+          "name": "Poland",
+          "name_ja": "ポーランド",
+          "any": 22.68,
+          "private": 19.13,
+          "work": 8.36,
+          "education": 4.59
+        },
+        {
+          "name": "Romania",
+          "name_ja": "ルーマニア",
+          "any": 17.76,
+          "private": 14.85,
+          "work": 5.24,
+          "education": 3.37
+        }
+      ]
+    },
+    "non_use_reasons_eu": [
+      {
+        "id": "no_need",
+        "ja": "必要を感じない",
+        "en": "No need",
+        "pct": 64
+      },
+      {
+        "id": "dont_know_how",
+        "ja": "使い方がわからない",
+        "en": "Not sure how to use",
+        "pct": 14
+      },
+      {
+        "id": "unaware",
+        "ja": "存在を知らない",
+        "en": "Not aware of the tools",
+        "pct": 9
+      },
+      {
+        "id": "privacy",
+        "ja": "プライバシー・安全上の懸念",
+        "en": "Privacy or security concerns",
+        "pct": 7
+      }
+    ],
+    "age_selected_countries": [
+      {
+        "name": "Norway",
+        "name_ja": "ノルウェー",
+        "y16_24": 79.7,
+        "y65_74": 19.77,
+        "men": 59.85,
+        "women": 52.67
+      },
+      {
+        "name": "Denmark",
+        "name_ja": "デンマーク",
+        "y16_24": 77.64,
+        "y65_74": 14.81,
+        "men": 52.36,
+        "women": 44.49
+      },
+      {
+        "name": "France",
+        "name_ja": "フランス",
+        "y16_24": 76.48,
+        "y65_74": 6.6,
+        "men": 39.77,
+        "women": 35.24
+      },
+      {
+        "name": "Spain",
+        "name_ja": "スペイン",
+        "y16_24": 75.56,
+        "y65_74": 7.34,
+        "men": 39.87,
+        "women": 35.91
+      },
+      {
+        "name": "Netherlands",
+        "name_ja": "オランダ",
+        "y16_24": 73.57,
+        "y65_74": 11.04,
+        "men": 47.46,
+        "women": 41.93
+      },
+      {
+        "name": "Germany",
+        "name_ja": "ドイツ",
+        "y16_24": 52.65,
+        "y65_74": 7.5,
+        "men": 34.9,
+        "women": 29.6
+      },
+      {
+        "name": "Poland",
+        "name_ja": "ポーランド",
+        "y16_24": 49.28,
+        "y65_74": 2.65,
+        "men": 26.39,
+        "women": 19.1
+      },
+      {
+        "name": "Italy",
+        "name_ja": "イタリア",
+        "y16_24": 47.17,
+        "y65_74": 4.55,
+        "men": 21.43,
+        "women": 18.31
+      }
+    ]
+  },
+  "mic": {
+    "source": "総務省「令和8年版 情報通信白書」／「国内外における最新の情報通信技術の研究開発及びデジタル活用の動向に関する調査研究」（2026年1–2月実施、2025年度調査）",
+    "source_url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r08/pdf/n1110000.pdf",
+    "definition_ja": "インターネット調査。日本1,236人、米・独・中各624人。15–69歳。『業務や日常生活で生成AIサービスを一つでも使ったことがあるか』（生涯経験）。2025年度から15–19歳を追加。インターネットパネルのため、無作為抽出の公式統計より高く出やすい。",
+    "definition_en": "Internet panel survey. Japan n=1,236; US/Germany/China n=624 each. Ages 15–69. Ever used any generative AI service for work or daily life. 15–19 added in this wave. Panel surveys typically read higher than probability samples.",
+    "overall_ever_used": [
+      {
+        "name": "Japan",
+        "name_ja": "日本",
+        "y2023": 9.1,
+        "y2024": 26.7,
+        "y2025": 58.8,
+        "y2025_age20plus": 52.2
+      },
+      {
+        "name": "United States",
+        "name_ja": "アメリカ",
+        "y2023": 46.3,
+        "y2024": 68.8,
+        "y2025": 75.6
+      },
+      {
+        "name": "Germany",
+        "name_ja": "ドイツ",
+        "y2023": 34.6,
+        "y2024": 59.2,
+        "y2025": 75.6
+      },
+      {
+        "name": "China",
+        "name_ja": "中国",
+        "y2023": 56.3,
+        "y2024": 81.2,
+        "y2025": 93.6
+      }
+    ],
+    "age_ever_used": {
+      "bands": [
+        "15–19",
+        "20–29",
+        "30–39",
+        "40–49",
+        "50–59",
+        "60–69"
+      ],
+      "series": [
+        {
+          "name": "Japan",
+          "name_ja": "日本",
+          "values": [
+            91.7,
+            78.2,
+            56.3,
+            49.0,
+            44.2,
+            33.5
+          ],
+          "overall": 58.8
+        },
+        {
+          "name": "United States",
+          "name_ja": "アメリカ",
+          "values": [
+            81.7,
+            91.3,
+            87.5,
+            79.8,
+            62.5,
+            51.0
+          ],
+          "overall": 75.6
+        },
+        {
+          "name": "Germany",
+          "name_ja": "ドイツ",
+          "values": [
+            98.1,
+            94.2,
+            88.5,
+            74.0,
+            53.8,
+            45.2
+          ],
+          "overall": 75.6
+        },
+        {
+          "name": "China",
+          "name_ja": "中国",
+          "values": [
+            96.2,
+            98.1,
+            96.2,
+            96.2,
+            88.5,
+            86.5
+          ],
+          "overall": 93.6
+        }
+      ]
+    },
+    "service_types_ever": {
+      "keys": [
+        {
+          "id": "any",
+          "ja": "1種類以上",
+          "en": "Any generative AI"
+        },
+        {
+          "id": "text",
+          "ja": "テキスト生成",
+          "en": "Text (ChatGPT, Gemini, …)"
+        },
+        {
+          "id": "image",
+          "ja": "画像・動画生成",
+          "en": "Image / video"
+        },
+        {
+          "id": "voice",
+          "ja": "音声生成",
+          "en": "Voice"
+        },
+        {
+          "id": "music",
+          "ja": "音楽生成",
+          "en": "Music"
+        },
+        {
+          "id": "code",
+          "ja": "プログラムコード生成",
+          "en": "Code"
+        }
+      ],
+      "series": [
+        {
+          "name": "Japan",
+          "name_ja": "日本",
+          "any": 58.8,
+          "text": 55.0,
+          "image": 16.3,
+          "voice": 6.5,
+          "music": 5.8,
+          "code": 7.0
+        },
+        {
+          "name": "United States",
+          "name_ja": "アメリカ",
+          "any": 75.6,
+          "text": 65.4,
+          "image": 41.0,
+          "voice": 29.3,
+          "music": 29.3,
+          "code": 35.4
+        },
+        {
+          "name": "Germany",
+          "name_ja": "ドイツ",
+          "any": 75.6,
+          "text": 66.0,
+          "image": 47.6,
+          "voice": 28.0,
+          "music": 26.0,
+          "code": 25.0
+        },
+        {
+          "name": "China",
+          "name_ja": "中国",
+          "any": 93.6,
+          "text": 88.3,
+          "image": 55.8,
+          "voice": 44.1,
+          "music": 33.7,
+          "code": 33.5
+        }
+      ]
+    },
+    "japan_regular_use_by_age": {
+      "note_ja": "『定期的に利用している』と答えた割合（人口比）。総務省 図表Ⅰ-1-1-11。",
+      "note_en": "Share saying they use AI regularly for each purpose (population, not just users). MIC chart I-1-1-11.",
+      "bands": [
+        "15–19",
+        "20–29",
+        "30–39",
+        "40–49",
+        "50–59",
+        "60–69"
+      ],
+      "purposes": [
+        {
+          "id": "understand",
+          "ja": "情報の理解",
+          "en": "Understanding information",
+          "values": [
+            55.3,
+            42.2,
+            35.0,
+            29.6,
+            22.8,
+            17.0
+          ]
+        },
+        {
+          "id": "learn",
+          "ja": "学習・教育支援",
+          "en": "Learning / education support",
+          "values": [
+            29.1,
+            11.2,
+            7.8,
+            4.9,
+            2.9,
+            2.4
+          ]
+        },
+        {
+          "id": "advice_daily",
+          "ja": "日常の行動・判断の相談",
+          "en": "Advice on daily decisions",
+          "values": [
+            25.7,
+            21.8,
+            16.5,
+            13.6,
+            5.8,
+            4.4
+          ]
+        },
+        {
+          "id": "create",
+          "ja": "コンテンツの制作・創作",
+          "en": "Creating content",
+          "values": [
+            21.8,
+            18.0,
+            10.2,
+            11.7,
+            3.4,
+            3.9
+          ]
+        },
+        {
+          "id": "advice_pro",
+          "ja": "専門的な相談（心身・生活・将来）",
+          "en": "Specialist-like advice",
+          "values": [
+            19.4,
+            16.0,
+            18.9,
+            11.7,
+            5.3,
+            2.4
+          ]
+        },
+        {
+          "id": "chat",
+          "ja": "日常的な会話",
+          "en": "Casual conversation",
+          "values": [
+            18.4,
+            18.4,
+            15.0,
+            7.8,
+            4.9,
+            1.5
+          ]
+        },
+        {
+          "id": "manage",
+          "ja": "日常生活や業務の管理",
+          "en": "Managing daily life or work",
+          "values": [
+            13.1,
+            12.1,
+            11.2,
+            8.3,
+            3.4,
+            2.9
+          ]
+        },
+        {
+          "id": "code",
+          "ja": "プログラミングやデータ処理",
+          "en": "Programming / data",
+          "values": [
+            7.8,
+            6.3,
+            6.8,
+            4.9,
+            1.9,
+            1.5
+          ]
+        }
+      ]
+    },
+    "japan_reasons_to_use": [
+      {
+        "ja": "無料または安い",
+        "en": "Free or cheap",
+        "pct": 53.9
+      },
+      {
+        "ja": "時間や手間を省き効率が上がる",
+        "en": "Saves time and effort",
+        "pct": 42.8
+      },
+      {
+        "ja": "多様な発想や視点を示してくれる",
+        "en": "Offers diverse ideas",
+        "pct": 34.1
+      }
+    ],
+    "japan_nonuse_text": [
+      {
+        "ja": "生活や業務に必要ない",
+        "en": "Not needed in life or work",
+        "pct": 42.4
+      },
+      {
+        "ja": "使い方がわからない",
+        "en": "Don't know how to use it",
+        "pct": 38.8
+      }
+    ],
+    "japan_firms_use_in_business": {
+      "y2024": 55.2,
+      "y2025": 86.4
+    }
+  },
+  "pew": {
+    "source": "Pew Research Center, Americans and AI 2026 (survey Feb 17–23, 2026, n=5,119 U.S. adults, American Trends Panel)",
+    "source_url": "https://www.pewresearch.org/internet/2026/06/17/the-gender-gap-in-ai/",
+    "definition_ja": "米国成人の確率標本。チャットボットを『使ったことがある』。インターネットパネルの総務省調査より低い数字になりやすい。",
+    "definition_en": "Probability sample of U.S. adults. Ever use AI chatbots. Typically lower than internet-panel estimates.",
+    "chatbot_ever": {
+      "y2024": 33,
+      "y2026": 49,
+      "men_2026": 50,
+      "women_2026": 47,
+      "daily_2026": 24
+    },
+    "chatgpt_ever": {
+      "note": "2023–2025: ever used ChatGPT among those who had heard of it. 2026 wording also asked about other chatbots.",
+      "years": [
+        {
+          "year": 2023,
+          "all": 18,
+          "a18_29": 33,
+          "a30_49": 21,
+          "a50_64": 13,
+          "a65": 4
+        },
+        {
+          "year": 2024,
+          "all": 23,
+          "a18_29": 43,
+          "a30_49": 27,
+          "a50_64": 17,
+          "a65": 6
+        },
+        {
+          "year": 2025,
+          "all": 34,
+          "a18_29": 58,
+          "a30_49": 41,
+          "a50_64": 25,
+          "a65": 10
+        },
+        {
+          "year": 2026,
+          "all": 44,
+          "a18_29": 61,
+          "a30_49": 55,
+          "a50_64": 37,
+          "a65": 19
+        }
+      ]
+    },
+    "chatbot_ever_2026_age": [
+      {
+        "band": "18–29",
+        "pct": 66
+      },
+      {
+        "band": "30–49",
+        "pct": 61
+      },
+      {
+        "band": "50–64",
+        "pct": 42
+      },
+      {
+        "band": "65+",
+        "pct": 23
+      }
+    ],
+    "chatbot_ever_2026_race": [
+      {
+        "id": "asian",
+        "ja": "アジア系*",
+        "en": "Asian*",
+        "pct": 70,
+        "daily": 47
+      },
+      {
+        "id": "hispanic",
+        "ja": "ヒスパニック",
+        "en": "Hispanic",
+        "pct": 49,
+        "daily": 26
+      },
+      {
+        "id": "black",
+        "ja": "黒人",
+        "en": "Black",
+        "pct": 49,
+        "daily": 24
+      },
+      {
+        "id": "white",
+        "ja": "白人",
+        "en": "White",
+        "pct": 46,
+        "daily": 20
+      }
+    ],
+    "tools_2026": [
+      {
+        "id": "chatgpt",
+        "name": "ChatGPT",
+        "all": 44,
+        "a18_29": 61,
+        "a30_49": 55,
+        "a50_64": 37,
+        "a65": 19,
+        "men": 44,
+        "women": 44
+      },
+      {
+        "id": "gemini",
+        "name": "Gemini",
+        "all": 24,
+        "a18_29": 30,
+        "a30_49": 34,
+        "a50_64": 20,
+        "a65": 11,
+        "men": 29,
+        "women": 20
+      },
+      {
+        "id": "copilot",
+        "name": "Copilot",
+        "all": 17,
+        "a18_29": 17,
+        "a30_49": 22,
+        "a50_64": 19,
+        "a65": 10,
+        "men": 22,
+        "women": 13
+      },
+      {
+        "id": "meta",
+        "name": "Meta AI",
+        "all": 14,
+        "a18_29": 14,
+        "a30_49": 17,
+        "a50_64": 13,
+        "a65": 10,
+        "men": 13,
+        "women": 15
+      },
+      {
+        "id": "grok",
+        "name": "Grok",
+        "all": 8,
+        "a18_29": 9,
+        "a30_49": 10,
+        "a50_64": 7,
+        "a65": 3,
+        "men": 11,
+        "women": 4
+      },
+      {
+        "id": "claude",
+        "name": "Claude",
+        "all": 6,
+        "a18_29": 10,
+        "a30_49": 9,
+        "a50_64": 4,
+        "a65": 1,
+        "men": 9,
+        "women": 4
+      },
+      {
+        "id": "character",
+        "name": "Character.ai",
+        "all": 3,
+        "a18_29": 7,
+        "a30_49": 3,
+        "a50_64": 1,
+        "a65": 1,
+        "men": 4,
+        "women": 2
+      }
+    ],
+    "uses_2026_adults": [
+      {
+        "id": "search",
+        "ja": "情報検索",
+        "en": "Search for information",
+        "all": 42,
+        "men": 45,
+        "women": 39
+      },
+      {
+        "id": "work",
+        "ja": "仕事の作業（就業者）",
+        "en": "Tasks at work (employed)",
+        "all": 38,
+        "men": 40,
+        "women": 35
+      },
+      {
+        "id": "fun",
+        "ja": "娯楽",
+        "en": "Fun or entertainment",
+        "all": 25,
+        "men": 28,
+        "women": 22
+      },
+      {
+        "id": "image",
+        "ja": "画像・動画の作成・編集",
+        "en": "Create or edit images/video",
+        "all": 24,
+        "men": 24,
+        "women": 23
+      },
+      {
+        "id": "medical",
+        "ja": "医療の助言",
+        "en": "Medical advice",
+        "all": 20,
+        "men": 21,
+        "women": 19
+      },
+      {
+        "id": "diet",
+        "ja": "食事・フィットネス情報",
+        "en": "Diet or fitness information",
+        "all": 20,
+        "men": 20,
+        "women": 19
+      },
+      {
+        "id": "news",
+        "ja": "ニュース",
+        "en": "News",
+        "all": 13,
+        "men": 15,
+        "women": 12
+      },
+      {
+        "id": "emotional",
+        "ja": "情緒的サポートや助言",
+        "en": "Emotional support or advice",
+        "all": 10,
+        "men": 8,
+        "women": 11
+      },
+      {
+        "id": "companion",
+        "ja": "話し相手",
+        "en": "Companionship",
+        "all": 4,
+        "men": 4,
+        "women": 4
+      }
+    ],
+    "chatgpt_2025_education": [
+      {
+        "id": "hs",
+        "ja": "高校以下",
+        "en": "High school or less",
+        "pct": 18
+      },
+      {
+        "id": "some_college",
+        "ja": "大学中退・短大など",
+        "en": "Some college",
+        "pct": 33
+      },
+      {
+        "id": "bachelor",
+        "ja": "学士",
+        "en": "Bachelor's",
+        "pct": 51
+      },
+      {
+        "id": "postgrad",
+        "ja": "大学院",
+        "en": "Postgraduate",
+        "pct": 52
+      }
+    ],
+    "chatgpt_2025_uses_adults": {
+      "work_employed": 28,
+      "learn": 26,
+      "entertainment": 22
+    },
+    "workers_use_ai_on_job": {
+      "y2024": 16,
+      "y2025_sep": 21
+    },
+    "teens_2025": {
+      "source": "Pew, Teens, Social Media and AI Chatbots 2025 (teens 13–17, Sep–Oct 2025, n=1,458)",
+      "ever_chatbot": 64,
+      "chatgpt": 59,
+      "gemini": 23,
+      "meta": 20
+    }
+  },
+  "openai_nber": {
+    "source": "Chatterji et al., How People Use ChatGPT, NBER Working Paper 34255 / OpenAI Economic Research, Sep 2025",
+    "source_url": "https://openai.com/index/how-people-are-using-chatgpt/",
+    "definition_ja": "ChatGPT消費者プランの会話1.5百万件をプライバシー保護下で分類。2025年7月時点で週次アクティブ約7億人、世界成人の約10%。自己申告ではなく実会話。",
+    "definition_en": "Privacy-preserving classification of 1.5 million ChatGPT consumer conversations. About 700 million weekly active users as of July 2025, ~10% of the world's adults. Actual messages, not self-reports.",
+    "work_share": {
+      "work": 30,
+      "nonwork": 70
+    },
+    "topics": [
+      {
+        "id": "guidance",
+        "ja": "実務的な案内（やり方・学習）",
+        "en": "Practical guidance",
+        "pct": 28
+      },
+      {
+        "id": "info",
+        "ja": "情報探索",
+        "en": "Seeking information",
+        "pct": 24
+      },
+      {
+        "id": "writing",
+        "ja": "文章作成・編集",
+        "en": "Writing",
+        "pct": 24
+      },
+      {
+        "id": "coding",
+        "ja": "プログラミング",
+        "en": "Coding",
+        "pct": 4.2
+      }
+    ],
+    "notes_ja": [
+      "3分類（実務案内・情報探索・文章）で会話の約80%。",
+      "仕事用途では文章作成が最大（仕事関連メッセージの約40%）。",
+      "非仕事メッセージは53%から70%超へ。仕事も増えているが私生活の伸びが速い。",
+      "初期は男性名が約80%だったが、2025年6月には48%まで低下し、性別ギャップはほぼ解消。",
+      "成人メッセージの約半分は26歳未満から。"
+    ],
+    "notes_en": [
+      "Practical guidance, seeking information and writing are ~80% of conversations.",
+      "Writing is the top work task (~40% of work-related messages).",
+      "Non-work messages grew from 53% to over 70%; work use also grew, but personal use grew faster.",
+      "Early users were ~80% typically masculine first names; 48% by June 2025 — gender gap essentially closed.",
+      "Nearly half of adult messages come from users under 26."
+    ]
+  },
+  "world_bank": {
+    "source": "Liu, Huang & Wang, Who on Earth Is Using Generative AI? Global Trends and Shifts in 2025, World Bank Policy Research Working Paper 11231",
+    "source_url": "https://openknowledge.worldbank.org/entities/publication/f4eea48b-41cd-4242-87ad-82dfa0dc85f2",
+    "chatgpt_share_of_top60_traffic_apr2025": 77,
+    "chatgpt_users_share_of_internet_users_apr2025": {
+      "high_income": 24,
+      "upper_middle": 5.8,
+      "lower_middle": 4.7,
+      "low_income": 0.7
+    },
+    "visits_per_internet_user_vs_lic": "about 50× higher in high-income countries than in low-income countries (May 2025, ChatGPT)"
+  },
+  "docomo": {
+    "source": "NTTドコモ モバイル社会研究所、全国15–69歳、生成AI利用者1,995人（2025年2月）／2026年2月追跡",
+    "source_url": "https://edu.watch.impress.co.jp/docs/news/2052013.html",
+    "current_use_15_69": {
+      "y2025_feb": 27,
+      "y2026_feb": 51,
+      "private_2026": 46,
+      "work_study_2026": 38
+    },
+    "uses_among_users_2025": [
+      {
+        "ja": "検索・情報収集",
+        "en": "Search / information",
+        "pct": 46
+      },
+      {
+        "ja": "テキスト生成・要約",
+        "en": "Text generation / summary",
+        "pct": 37
+      },
+      {
+        "ja": "翻訳",
+        "en": "Translation",
+        "pct": 32
+      }
+    ]
+  }
+}
